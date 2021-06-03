@@ -1,4 +1,5 @@
 /* 把我们所有标签的内外边距清零,且盒子大小为width*/
+
 * {
     margin: 0;
     padding: 0;
@@ -38,8 +39,11 @@ a:hover {
 button,
 input {
     /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */
-    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
 }
+
 
 body {
     /* CSS3 抗锯齿形 让文字显示的更加清晰 */

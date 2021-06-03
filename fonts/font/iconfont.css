@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2581947 */
+  src: url('iconfont.woff2?t=1622532923834') format('woff2'),
+       url('iconfont.woff?t=1622532923834') format('woff'),
+       url('iconfont.ttf?t=1622532923834') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiazai3:before {
+  content: "\e603";
+}
+
+.icon-gouwu:before {
+  content: "\e629";
+}
+
+.icon-xiala1:before {
+  content: "\e646";
+}
+
+.icon-american-football-outline:before {
+  content: "\e7cd";
+}
+
+.icon-xiala:before {
+  content: "\e682";
+}
+

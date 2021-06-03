@@ -1,0 +1,44 @@
+{
+  "id": "2581947",
+  "name": "我的图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "720961",
+      "name": "购物",
+      "font_class": "xiazai3",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "8575315",
+      "name": "购物",
+      "font_class": "gouwu",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "18311491",
+      "name": "下  拉",
+      "font_class": "xiala1",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "21847841",
+      "name": "american-football-outline",
+      "font_class": "american-football-outline",
+      "unicode": "e7cd",
+      "unicode_decimal": 59341
+    },
+    {
+      "icon_id": "18368012",
+      "name": "下  拉",
+      "font_class": "xiala",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    }
+  ]
+}
