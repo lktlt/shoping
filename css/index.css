@@ -5,11 +5,21 @@
     margin-top: 10px;
 }
 .main .foucs {
+    overflow: hidden;
     float: left;
     position: relative;
     width: 721px;
     height: 455px;
     
+}
+.foucs ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 600%;
+}
+.foucs ul li {
+    float: left;
 }
 .foucs .select {
     position: absolute;
@@ -21,6 +31,9 @@
 }
 .foucs .select li {
     float: left;
+}
+.foucs .select .current {
+    background-color: red;
 }
 .foucs .select li a {
     float: left;
@@ -34,6 +47,7 @@
     background-color: red;
 }
 .foucs .arrow_right,.foucs .arrow_left {
+    display: none;
     position: absolute;
     top: 50%;
     margin-top: -25px;
@@ -278,3 +292,27 @@
     border-bottom: 1px solid #ccc;
 }
 
+/*电梯导航*/
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+    display: none;
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
